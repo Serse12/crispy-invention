@@ -1,8 +1,11 @@
-# crispy-invention
-API e gestionale in Flask
+Flasky
+======
 
-## Scopo della repository
-La repositpry non vuole essere una guida o un manuale, semplicemente è contenuto del codice che può semplificare la creazione di API e Gestionali.
+This repository contains the source code examples for the second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com).
 
-## Scurity
-La sicurezza è garantita da moduli python consultabili nel codice.
+The commits and tags in this repository were carefully created to match the sequence in which concepts are presented in the book. Please read the section titled "How to Work with the Example Code" in the book's preface for instructions.
+
+For Readers of the First Edition of the Book
+--------------------------------------------
+
+The code examples for the first edition of the book were moved to a different repository: [https://github.com/miguelgrinberg/flasky-first-edition](https://github.com/miguelgrinberg/flasky-first-edition).
