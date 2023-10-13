@@ -28,3 +28,5 @@ visitor
 webencodings
 werkzeug==0.16.1
 WTForms
+python-dotenv
+psycopg2-binary
