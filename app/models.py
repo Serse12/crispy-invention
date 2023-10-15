@@ -53,6 +53,11 @@ class User(UserMixin, db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.username
+    
+class Prova(db.Model):
+    __tablename__ = 'prova'
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(64), unique=True, index=True)
 
 
 @login_manager.user_loader
