@@ -5,7 +5,14 @@ from . import api
 
 @api.route("/prova")
 def prova():
+    prova2 = Prova.query.all()
 
+    return jsonify({
+        "result":str(prova2)
+    })
+
+@api.route("/prova/add")
+def prova_add():
     prova = Prova(
         id=1,
         email="ciao"
@@ -13,9 +20,3 @@ def prova():
     
     db.session.add(prova)
     db.session.commit()
-
-    prova2 = Prova.query.all()
-
-    return jsonify({
-        prova2
-    })
